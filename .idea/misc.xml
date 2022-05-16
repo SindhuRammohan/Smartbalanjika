@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/SindhuCoding/github/search-recycler-view/app/src/main/res/drawable-v24/ic_back.xml" value="0.1" />
+        <entry key="..\:/SindhuCoding/github/search-recycler-view/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.11944444444444445" />
+        <entry key="..\:/SindhuCoding/github/search-recycler-view/app/src/main/res/drawable-v24/list_box_style.xml" value="0.1" />
+        <entry key="..\:/SindhuCoding/github/search-recycler-view/app/src/main/res/drawable-v24/round_box_style.xml" value="0.1" />
+        <entry key="..\:/SindhuCoding/github/search-recycler-view/app/src/main/res/drawable/background_button_fill.xml" value="0.11944444444444445" />
+        <entry key="..\:/SindhuCoding/github/search-recycler-view/app/src/main/res/drawable/background_input_field.xml" value="0.11944444444444445" />
+        <entry key="..\:/SindhuCoding/github/search-recycler-view/app/src/main/res/drawable/background_search.xml" value="0.11944444444444445" />
+        <entry key="..\:/SindhuCoding/github/search-recycler-view/app/src/main/res/drawable/bottom_navigation_selector.xml" value="0.1" />
+        <entry key="..\:/SindhuCoding/github/search-recycler-view/app/src/main/res/drawable/ic_android_black_24dp.xml" value="0.1" />
+        <entry key="..\:/SindhuCoding/github/search-recycler-view/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.1" />
+        <entry key="..\:/SindhuCoding/github/search-recycler-view/app/src/main/res/drawable/ic_baseline_add_location_24.xml" value="0.1" />
+        <entry key="..\:/SindhuCoding/github/search-recycler-view/app/src/main/res/drawable/ic_baseline_auto_stories_24.xml" value="0.1" />
+        <entry key="..\:/SindhuCoding/github/search-recycler-view/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.11944444444444445" />
+        <entry key="..\:/SindhuCoding/github/search-recycler-view/app/src/main/res/drawable/ic_baseline_password_key_24.xml" value="0.11944444444444445" />
+        <entry key="..\:/SindhuCoding/github/search-recycler-view/app/src/main/res/drawable/ic_baseline_people_24.xml" value="0.1" />
+        <entry key="..\:/SindhuCoding/github/search-recycler-view/app/src/main/res/drawable/ic_empty_dataset_1.xml" value="0.11944444444444445" />
+        <entry key="..\:/SindhuCoding/github/search-recycler-view/app/src/main/res/drawable/ic_launcher_background.xml" value="0.11944444444444445" />
+        <entry key="..\:/SindhuCoding/github/search-recycler-view/app/src/main/res/drawable/ic_weather_app.xml" value="0.11944444444444445" />
+        <entry key="..\:/SindhuCoding/github/search-recycler-view/app/src/main/res/drawable/sdgsdg.xml" value="0.1" />
+        <entry key="..\:/SindhuCoding/github/search-recycler-view/app/src/main/res/drawable/splash_screen_drawable.xml" value="0.11944444444444445" />
+        <entry key="..\:/SindhuCoding/github/search-recycler-view/app/src/main/res/layout/about_us.xml" value="0.15364583333333334" />
+        <entry key="..\:/SindhuCoding/github/search-recycler-view/app/src/main/res/layout/about_us_details.xml" value="0.15364583333333334" />
+        <entry key="..\:/SindhuCoding/github/search-recycler-view/app/src/main/res/layout/activity_main.xml" value="0.13333333333333333" />
+        <entry key="..\:/SindhuCoding/github/search-recycler-view/app/src/main/res/layout/activity_photos.xml" value="0.1" />
+        <entry key="..\:/SindhuCoding/github/search-recycler-view/app/src/main/res/layout/activity_web_view.xml" value="0.16770833333333332" />
+        <entry key="..\:/SindhuCoding/github/search-recycler-view/app/src/main/res/layout/item_category_row.xml" value="0.16770833333333332" />
+        <entry key="..\:/SindhuCoding/github/search-recycler-view/app/src/main/res/layout/item_empty_dataset.xml" value="0.16770833333333332" />
+        <entry key="..\:/SindhuCoding/github/search-recycler-view/app/src/main/res/layout/item_row_pdf.xml" value="0.16666666666666666" />
+        <entry key="..\:/SindhuCoding/github/search-recycler-view/app/src/main/res/layout/item_row_photos.xml" value="0.16770833333333332" />
+        <entry key="..\:/SindhuCoding/github/search-recycler-view/app/src/main/res/layout/item_search_photos.xml" value="0.16770833333333332" />
+        <entry key="..\:/SindhuCoding/github/search-recycler-view/app/src/main/res/layout/item_title_profile.xml" value="0.16770833333333332" />
+        <entry key="..\:/SindhuCoding/github/search-recycler-view/app/src/main/res/layout/pdffragment_main.xml" value="0.16770833333333332" />
+        <entry key="..\:/SindhuCoding/github/search-recycler-view/app/src/main/res/layout/personal_details.xml" value="0.23148148148148148" />
+        <entry key="..\:/SindhuCoding/github/search-recycler-view/app/src/main/res/menu/bottom_nav.xml" value="0.16770833333333332" />
+        <entry key="..\:/Users/rajes/OneDrive/Documents/GitHub/search-recycler-view/app/src/main/res/layout/activity_main.xml" value="0.16770833333333332" />
+        <entry key="..\:/Users/rajes/OneDrive/Documents/GitHub/search-recycler-view/app/src/main/res/layout/activity_photos.xml" value="0.16770833333333332" />
+        <entry key="..\:/Users/rajes/OneDrive/Documents/GitHub/search-recycler-view/app/src/main/res/layout/activity_web_view.xml" value="0.16770833333333332" />
+        <entry key="..\:/Users/rajes/OneDrive/Documents/GitHub/search-recycler-view/app/src/main/res/layout/item_category_row.xml" value="0.16770833333333332" />
+        <entry key="..\:/Users/rajes/OneDrive/Documents/GitHub/search-recycler-view/app/src/main/res/layout/item_empty_dataset.xml" value="0.1" />
+        <entry key="..\:/Users/rajes/OneDrive/Documents/GitHub/search-recycler-view/app/src/main/res/layout/item_row_pdf.xml" value="0.16770833333333332" />
+        <entry key="..\:/Users/rajes/OneDrive/Documents/GitHub/search-recycler-view/app/src/main/res/layout/item_row_photos.xml" value="0.21651785714285715" />
+        <entry key="..\:/Users/rajes/OneDrive/Documents/GitHub/search-recycler-view/app/src/main/res/layout/item_search_photos.xml" value="0.16770833333333332" />
+        <entry key="..\:/Users/rajes/OneDrive/Documents/GitHub/search-recycler-view/app/src/main/res/layout/item_title_profile.xml" value="0.16770833333333332" />
+        <entry key="..\:/Users/rajes/OneDrive/Documents/GitHub/search-recycler-view/app/src/main/res/layout/pdffragment_main.xml" value="0.16770833333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
