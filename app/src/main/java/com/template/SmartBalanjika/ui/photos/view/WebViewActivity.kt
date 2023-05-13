@@ -29,6 +29,7 @@ class WebViewActivity : AppCompatActivity() {
         webView.settings.javaScriptEnabled = true
         webView.getSettings().setLoadWithOverviewMode(true)
         webView.getSettings().setUseWideViewPort(true)
+        webView.getSettings().setBuiltInZoomControls(true)
 
         webView.setDownloadListener(DownloadListener { url, userAgent, contentDisposition, mimetype, contentLength ->
             val request = DownloadManager.Request(
