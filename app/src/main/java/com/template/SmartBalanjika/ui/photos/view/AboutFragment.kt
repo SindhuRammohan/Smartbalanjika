@@ -72,24 +72,16 @@ class AboutFragment : Fragment() {
             when (it.status) {
 
                 Status.SUCCESS -> {
-
-
                     Log.d("TAG", it.data.toString())
                     renderPhotosList(it.data!!)
-
-
                 }
 
                 Status.ERROR -> {
-
-
                     Log.d("TAG", "ERROR")
                 }
 
                 Status.LOADING -> {
-
                     Log.d("TAG", "LOADING")
-
                 }
 
 

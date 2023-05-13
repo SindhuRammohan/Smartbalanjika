@@ -40,7 +40,6 @@ class PdfFragment : Fragment() , SearchView.OnQueryTextListener{
         _binding = PdffragmentMainBinding.inflate(inflater, container, false)
         val view = binding.root
         setUpViews()
-        Log.d("TAG Sindhu", "one")
         doObserveWork()
         requireActivity().onBackPressedDispatcher.addCallback(requireActivity()) {
             android.os.Process.killProcess(android.os.Process.myPid())
@@ -59,7 +58,6 @@ class PdfFragment : Fragment() , SearchView.OnQueryTextListener{
                 recyclerViewpdf.layoutManager = LinearLayoutManager(context,
                     LinearLayoutManager.VERTICAL,false)
                 recyclerViewpdf.adapter = pdfAdapter
-                Log.d("TAG Sindhu", "test")
                 pdfAdapter.onItemClick = { contact ->
                     val intent = Intent(activity, WebViewActivity::class.java)
                     intent.putExtra("Username",contact.link)
@@ -79,67 +77,44 @@ class PdfFragment : Fragment() , SearchView.OnQueryTextListener{
     }
 
     private fun doObserveWork() {
-        Log.d("TAG Sindhu", "it.data.toString()")
         photosViewModel.progressBarVisibility.observe(viewLifecycleOwner, Observer {
-            Log.d("TAG Sindhu", "it.data.toString()")
         })
 
         photosViewModel.getPhotosFeed().observe(viewLifecycleOwner, Observer {
-            Log.d("TAG Sindhu THIS", it.status.toString())
             when (it.status) {
 
                 Status.SUCCESS -> {
-
-
-                    Log.d("TAG Sindhu", it.data.toString())
                     renderPhotosList(it.data!!)
-
-
                 }
 
                 Status.ERROR -> {
-
-
-                    Log.d("TAG Sindhu HI", "ERROR")
+                    Log.d("TAG", "ERROR")
                 }
 
                 Status.LOADING -> {
-
-                    Log.d("TAG Sindhu", "LOADING")
-
+                    Log.d("TAG", "LOADING")
                 }
                 Status.NETWORK -> {
                     Toast.makeText(context,
                         context?.getResources()?.getString(R.string.no_internet)  , Toast.LENGTH_SHORT).show();
-                    Log.d("TAG Sindhu", "NETWORK")
-
                 }
             }
         })
     }
 
     private fun renderPhotosList(photosList: List<pdf>) {
-
         Log.d("TAG", photosList.toString())
         pdfAdapter.addData(photosList)
         pdfAdapter.notifyDataSetChanged()
-
     }
 
     override fun onQueryTextSubmit(query: String?): Boolean {
-
         pdfAdapter.filter.filter(query)
         return false
-
     }
 
     override fun onQueryTextChange(newText: String?): Boolean {
-
         pdfAdapter.filter.filter(newText)
-
         return false
-
     }
-
-
 }

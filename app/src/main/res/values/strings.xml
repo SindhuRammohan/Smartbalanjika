@@ -6,5 +6,7 @@
     <string name="open_from_storage">Open from Storage</string>
     <string name="open_from_internet">Open from Internet</string>
     <string name="books">Books</string>
+    <string name="Downloading_File">Downloading File</string>
+
     <string name="no_internet">Internet is not avialable. Please check internet connection</string>
 </resources>

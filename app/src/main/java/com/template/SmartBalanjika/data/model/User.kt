@@ -20,6 +20,6 @@ data class User(
         @SerializedName("image")
         var image: String, // https://elibrary.smartgov.app/storage/img/user/1596902851name.jpg
         @SerializedName("token")
-        var token: String // Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2VsaWJyYXJ5LnNtYXJ0Z292LmFwcC9hcGkvbG9naW4iLCJpYXQiOjE2MDYyMDQzODcsImV4cCI6NzA0OTQwNDM4NywibmJmIjoxNjA2MjA0Mzg3LCJqdGkiOiJ4MXNLVlpsS2Vhc1FaVFlQIiwic3ViIjo1MDE5LCJwcnYiOiJiOTEyNzk5NzhmMTFhYTdiYzU2NzA0ODdmZmYwMWUyMjgyNTNmZTQ4In0.AxJXK-5Wac3fImbLsvBKQLj8EanITsketgq7FMeXMnA
+        var token: String
     )
 }

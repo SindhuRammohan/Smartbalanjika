@@ -82,13 +82,7 @@ class PhotosFragment : Fragment() , SearchView.OnQueryTextListener{
             when (it.status) {
 
                 Status.SUCCESS -> {
-
-                    Log.e("Sindhu TAG", "my Message" + it.data)
-
-
                     renderPhotosList(it.data!!)
-
-
                 }
 
                 Status.ERROR -> {

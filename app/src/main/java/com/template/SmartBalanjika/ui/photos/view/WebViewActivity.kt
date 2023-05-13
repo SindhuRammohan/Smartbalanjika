@@ -10,6 +10,7 @@ import android.webkit.DownloadListener
 import android.webkit.WebViewClient
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.template.SmartBalanjika.R
 import com.template.SmartBalanjika.databinding.ActivityWebViewBinding
 import kotlinx.android.synthetic.main.activity_web_view.*
 
@@ -43,15 +44,12 @@ class WebViewActivity : AppCompatActivity() {
             dm.enqueue(request)
             Toast.makeText(
                 applicationContext,
-                "Downloading File",  //To notify the Client that the file is being downloaded
+                applicationContext?.getResources()?.getString(R.string.Downloading_File),  //To notify the Client that the file is being downloaded
                 Toast.LENGTH_LONG
             ).show()
         })
         if (profileName != null) {
             webView.loadUrl(profileName)
-        }
-        if (profileName != null) {
-            Log.d("TAG intent", profileName)
         }
     }
 }
