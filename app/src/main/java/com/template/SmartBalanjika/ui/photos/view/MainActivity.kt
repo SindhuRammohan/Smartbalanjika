@@ -18,23 +18,23 @@ class MainActivity : AppCompatActivity()  {
         setContentView(view)
 
         val navView: BottomNavigationView = binding.bottomNavigation
-        loadFragment(PhotosFragment())
+        loadFragment(PdfFragment())
         navView.setOnNavigationItemSelectedListener {
             when(it.itemId){
-                R.id.homed-> {
-                    loadFragment(PhotosFragment())
-                    return@setOnNavigationItemSelectedListener true
-                }
+//                R.id.homed-> {
+//                    loadFragment(PhotosFragment())
+//                    return@setOnNavigationItemSelectedListener true
+//                }
 
                 R.id.info-> {
                     loadFragment(PdfFragment())
                     return@setOnNavigationItemSelectedListener true
                 }
 
-                R.id.contactus-> {
-                    loadFragment(AboutFragment())
-                    return@setOnNavigationItemSelectedListener true
-                }
+//                R.id.contactus-> {
+//                    loadFragment(AboutFragment())
+//                    return@setOnNavigationItemSelectedListener true
+//                }
 
             }
             false

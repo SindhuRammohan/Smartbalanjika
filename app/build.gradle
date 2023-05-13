@@ -16,10 +16,7 @@ android {
         targetSdkVersion 31
         versionCode 1
         versionName "1.0"
-//        buildConfigField 'String', 'BASE_URL', "\"https://elibrary.smartgov.app/api/\""
-        buildConfigField 'String', 'BASE_URL', "\"https://intern.docker-dev.d-tt.nl/\""
-//        buildConfigField 'String', 'API_SECRET', "\"61y2UU1XME1GfVFa\""
-//        buildConfigField 'String', 'API_KEY', "\"guWQWTof\""
+        buildConfigField 'String', 'BASE_URL', "\"https://raw.githubusercontent.com/SindhuRammohan/Smartbalanjika/main/\""
         multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

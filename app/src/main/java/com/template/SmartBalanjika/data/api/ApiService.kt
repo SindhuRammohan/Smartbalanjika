@@ -16,20 +16,15 @@ interface ApiService {
     @GET(ApiEndPoints.HOME)
     suspend fun homeFeeds(): Response<Home>
 
-    @Headers("Access-Key: 98bww4ezuzfePCYFxJEWyszbUXc7dxRx")
 //    @GET(ApiEndPoints.PHOTOS_URL)
-    //for testing
-    //https://mocki.io/fake-json-api
     //change with correct API
-    @GET("https://mocki.io/v1/6e0b596c-42b7-4bda-a4e7-2987e46ae337")
+    @GET("https://raw.githubusercontent.com/SindhuRammohan/Smartbalanjika/main/README.md")
     suspend fun getPhotosUrl(): Response<List<Photos>>
 
-    @Headers("Access-Key: 98bww4ezuzfePCYFxJEWyszbUXc7dxRx")
 //    @GET(ApiEndPoints.PDF_URL)
-    @GET("https://mocki.io/v1/a4ba1a44-588d-4e12-9702-5a508fbac72b")
+    @GET("https://raw.githubusercontent.com/SindhuRammohan/Smartbalanjika/main/README.md")
     suspend fun getPdfsUrl(): Response<List<pdf>>
 
-    @Headers("Access-Key: 98bww4ezuzfePCYFxJEWyszbUXc7dxRx")
-    @GET(ApiEndPoints.PDF_URL)
+    @GET("https://raw.githubusercontent.com/SindhuRammohan/Smartbalanjika/main/README.md")
     suspend fun getSangamList(): Response<List<Sangam>>
 }

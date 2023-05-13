@@ -58,12 +58,10 @@ class PdfViewModel @Inject constructor(
                         progressBarVisibility.postValue(false)
                     }
                 }
-
-
             }
-
-
-
+            else {
+                onResponse.postValue(Resource.network("network",null))
+            }
 
         }
 
