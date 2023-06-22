@@ -10,12 +10,21 @@ android {
     compileSdkVersion 33
     buildToolsVersion "30.0.3"
 
+    signingConfigs {
+        release {
+            storeFile file('E:\\SindhuCoding\\github\\playstore app\\playstore update\\key\\smartbalanjika.jks')
+            storePassword 'Believegod'
+            keyAlias 'Balanjika'
+            keyPassword 'Believegod'
+        }
+    }
+
     defaultConfig {
         applicationId "com.template.SmartBalanjika"
         minSdkVersion 16
         targetSdkVersion 33
-        versionCode 4
-        versionName "1.0"
+        versionCode 5
+        versionName "1.1"
         buildConfigField 'String', 'BASE_URL', "\"https://raw.githubusercontent.com/SindhuRammohan/Smartbalanjika/main/\""
         multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -23,9 +32,11 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
+            shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-        }
+            signingConfig signingConfigs.release
+           }
     }
     compileOptions {
         sourceCompatibility 1.8
@@ -36,6 +47,9 @@ android {
     }
     buildFeatures {
         viewBinding  true
+    }
+    lintOptions {
+        checkReleaseBuilds false
     }
 }
 
