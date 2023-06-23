@@ -5,7 +5,7 @@
     "name": "a",
     "location": "cbe",
     "phonenumber": "+919999999999",
-    "date": "July 2020",
+    "date": "July 20201",
     "link": "https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx5b3V0aGJhbGFuamlrYWJvb2t8Z3g6M2FjZjUzZmRhOWQ2YTQxYQ",
     "zip": "1034 ZH",
     "city": "cbe",
