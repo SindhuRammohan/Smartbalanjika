@@ -8,7 +8,7 @@
     "location": "cbe",
     "phonenumber": "+919999999999",
     "date": "May 2023",
-    "link": "https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx5b3V0aGJhbGFuamlrYWJvb2t8Z3g6M2FjZjUzZmRhOWQ2YTQxYQ",
+    "link": "https://drive.google.com/file/d/1Z31d33Dgd5upK_f3yPO6NtEqZ28DHnlh/view",
     "zip": "1034 ZH",
     "city": "cbe",
     "latitude": 52,
