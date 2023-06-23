@@ -5,7 +5,7 @@
     "name": "a",
     "location": "cbe",
     "phonenumber": "+919999999999",
-    "date": "July 2020",
+    "date": "July 20201",
     "link": "https://github.com/SindhuRammohan/YouthbalanjikaBook/blob/main/Youth%20Balanjika%20May%202023.pdf",
     "zip": "1034 ZH",
     "city": "cbe",
