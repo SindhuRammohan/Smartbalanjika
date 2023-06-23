@@ -8,13 +8,13 @@
     "location": "cbe",
     "phonenumber": "+919999999999",
     "date": "May 2023",
-    "link": "https://drive.google.com/file/d/1Z31d33Dgd5upK_f3yPO6NtEqZ28DHnlh/view",
+    "link": "https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx5b3V0aGJhbGFuamlrYWJvb2t8Z3g6M2FjZjUzZmRhOWQ2YTQxYQ",
     "zip": "1034 ZH",
     "city": "cbe",
     "latitude": 52,
     "longitude": 5,
     "createdDate": "2020-05-07"
-  }
+  },
   
   
   {
