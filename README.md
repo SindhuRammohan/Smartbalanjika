@@ -6,7 +6,7 @@
     "location": "cbe",
     "phonenumber": "+919999999999",
     "date": "July 2020",
-    "link": "https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx5b3V0aGJhbGFuamlrYWJvb2t8Z3g6M2FjZjUzZmRhOWQ2YTQxYQ",
+    "link": "https://github.com/SindhuRammohan/YouthbalanjikaBook/blob/main/Youth%20Balanjika%20May%202023.pdf",
     "zip": "1034 ZH",
     "city": "cbe",
     "latitude": 52,

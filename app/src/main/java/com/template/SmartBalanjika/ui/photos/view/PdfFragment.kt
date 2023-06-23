@@ -65,7 +65,7 @@ class PdfFragment : Fragment() , SearchView.OnQueryTextListener{
                     intent.putExtras(intent)
                     startActivity(intent)
                     // do something with your item
-                    Log.d("TAG", contact.date + contact.link)
+                    Log.d("TAG date", contact.date + contact.link)
                 }
 
 

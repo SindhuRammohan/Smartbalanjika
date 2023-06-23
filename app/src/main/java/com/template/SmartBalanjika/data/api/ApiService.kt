@@ -13,18 +13,18 @@ interface ApiService {
         @Field("password") userPassword: String
     ): Response<User>
 
-    @GET(ApiEndPoints.HOME)
-    suspend fun homeFeeds(): Response<Home>
+//    @GET(ApiEndPoints.HOME)
+//    suspend fun homeFeeds(): Response<Home>
 
 //    @GET(ApiEndPoints.PHOTOS_URL)
     //change with correct API
-    @GET("https://raw.githubusercontent.com/SindhuRammohan/Smartbalanjika/main/app/src/main/res/API/apicall.txt")
+    @GET("https://raw.githubusercontent.com/SindhuRammohan/Smartbalanjika/main/README.md")
     suspend fun getPhotosUrl(): Response<List<Photos>>
 
 //    @GET(ApiEndPoints.PDF_URL)
-    @GET("https://raw.githubusercontent.com/SindhuRammohan/Smartbalanjika/main/app/src/main/res/API/apicall.txt")
+    @GET("https://raw.githubusercontent.com/SindhuRammohan/Smartbalanjika/main/README.md")
     suspend fun getPdfsUrl(): Response<List<pdf>>
 
-    @GET("https://raw.githubusercontent.com/SindhuRammohan/Smartbalanjika/main/app/src/main/res/API/apicall.txt")
+    @GET("https://raw.githubusercontent.com/SindhuRammohan/Smartbalanjika/main/README.md")
     suspend fun getSangamList(): Response<List<Sangam>>
 }

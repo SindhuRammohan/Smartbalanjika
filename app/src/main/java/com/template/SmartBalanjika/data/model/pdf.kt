@@ -4,7 +4,7 @@ import com.google.gson.annotations.SerializedName
 
 class pdf (
     @SerializedName("date")
-    var date: String, // Matthew Wiebe
+    var date: String,
     @SerializedName("image")
     var downloadUrl: String, // https://picsum.photos/id/1025/4951/3301
     @SerializedName("bedrooms")

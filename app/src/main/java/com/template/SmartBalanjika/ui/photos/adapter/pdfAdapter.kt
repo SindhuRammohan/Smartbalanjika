@@ -33,6 +33,7 @@ class pdfAdapter @Inject constructor():
 
         fun bind(result: pdf) {
             itemView.namepdf.text = result.date
+            Log.e("date test Sindhu","string"+ result.link)
         }
     }
 
