@@ -1,6 +1,6 @@
 [
 {
-    "id": 3,
+    "id": 13,
     "image": "/uploads/house1.jpg",
     "name": "a",
     "location": "cbe",
@@ -15,7 +15,7 @@
 },
 
 {
-    "id": 2,
+    "id": 12,
     "image": "/uploads/house1.jpg",
     "name": "a",
     "location": "cbe",
@@ -30,7 +30,7 @@
   },
 
 {
-    "id": 1,
+    "id": 11,
     "image": "/uploads/house1.jpg",
     "name": "a",
     "location": "cbe",
