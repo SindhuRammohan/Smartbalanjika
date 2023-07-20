@@ -19,7 +19,6 @@ import com.template.SmartBalanjika.databinding.PdffragmentMainBinding
 import com.template.SmartBalanjika.ui.photos.adapter.pdfAdapter
 import com.template.SmartBalanjika.ui.photos.viewmodel.PdfViewModel
 import com.template.SmartBalanjika.utils.EmptyDataObserver
-import com.template.SmartBalanjika.utils.NetworkHelper
 import com.template.SmartBalanjika.utils.Status
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.pdffragment_main.view.*

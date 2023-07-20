@@ -5,7 +5,6 @@ import android.app.DownloadManager
 import android.net.Uri
 import android.os.Bundle
 import android.os.Environment
-import android.util.Log
 import android.webkit.DownloadListener
 import android.webkit.WebViewClient
 import android.widget.Toast

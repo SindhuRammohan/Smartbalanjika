@@ -14,7 +14,7 @@ android {
         release {
             storeFile file('E:\\SindhuCoding\\github\\playstore app\\playstore update\\key\\smartbalanjika.jks')
             storePassword 'Believegod'
-            keyAlias 'Balanjika'
+            keyAlias 'upload'
             keyPassword 'Believegod'
         }
     }
@@ -32,7 +32,6 @@ android {
 
     buildTypes {
         release {
-            debuggable false
             minifyEnabled false
             shrinkResources false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
