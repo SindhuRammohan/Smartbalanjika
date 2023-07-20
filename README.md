@@ -42,5 +42,5 @@
     "latitude": 52,
     "longitude": 5,
     "createdDate": "2020-05-07"
-  },
+  }
 ]
